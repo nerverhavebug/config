@@ -1,0 +1,13 @@
+server:
+  port: 8769
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git: https://github.com/nerverhavebug/config.git
+          #search-paths: 
+          username: 2311986403@qq.com
+          password: 123456789gza
+          default-label: master
